@@ -84,7 +84,7 @@ a.card:hover{transform:translateY(-2px);border-color:var(--accent)}
 .badge{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:12px;margin-bottom:16px;color:#fff;font:700 .9rem/1 var(--sans);background:var(--accent)}
 .badge.calm{background:var(--calm)}.badge.build{background:var(--build)}.badge.ai{background:var(--ai)}.badge.vet{background:var(--vet)}.badge.sov{background:var(--sov)}.badge.tool{background:var(--tool)}
 @media (prefers-color-scheme:dark){.badge{color:#111}}
-.tag{display:inline-block;padding:3px 10px;border-radius:999px;font:600 .78rem/1.6 var(--sans);background:var(--accent-soft);color:var(--accent);margin:0 6px 10px 0}
+.tag{align-self:flex-start;display:inline-block;padding:3px 10px;border-radius:999px;font:600 .78rem/1.6 var(--sans);background:var(--accent-soft);color:var(--accent);margin:0 6px 10px 0}
 .handle{font:600 .88rem var(--sans);color:var(--soft);margin-bottom:10px}
 
 /* Two-column feature blocks */
